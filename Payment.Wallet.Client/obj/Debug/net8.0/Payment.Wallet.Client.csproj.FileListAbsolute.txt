@@ -1,0 +1,12 @@
+C:\repos\Payment.Wallet.Tests\Payment.Wallet.Client\bin\Debug\net8.0\Payment.Wallet.Client.deps.json
+C:\repos\Payment.Wallet.Tests\Payment.Wallet.Client\bin\Debug\net8.0\Payment.Wallet.Client.dll
+C:\repos\Payment.Wallet.Tests\Payment.Wallet.Client\bin\Debug\net8.0\Payment.Wallet.Client.pdb
+C:\repos\Payment.Wallet.Tests\Payment.Wallet.Client\obj\Debug\net8.0\Payment.Wallet.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\Payment.Wallet.Tests\Payment.Wallet.Client\obj\Debug\net8.0\Payment.Wallet.Client.AssemblyInfoInputs.cache
+C:\repos\Payment.Wallet.Tests\Payment.Wallet.Client\obj\Debug\net8.0\Payment.Wallet.Client.AssemblyInfo.cs
+C:\repos\Payment.Wallet.Tests\Payment.Wallet.Client\obj\Debug\net8.0\Payment.Wallet.Client.csproj.CoreCompileInputs.cache
+C:\repos\Payment.Wallet.Tests\Payment.Wallet.Client\obj\Debug\net8.0\Payment.Wallet.Client.dll
+C:\repos\Payment.Wallet.Tests\Payment.Wallet.Client\obj\Debug\net8.0\refint\Payment.Wallet.Client.dll
+C:\repos\Payment.Wallet.Tests\Payment.Wallet.Client\obj\Debug\net8.0\Payment.Wallet.Client.pdb
+C:\repos\Payment.Wallet.Tests\Payment.Wallet.Client\obj\Debug\net8.0\ref\Payment.Wallet.Client.dll
+C:\repos\Payment.Wallet.Tests\Payment.Wallet.Client\obj\Debug\net8.0\Payment.Wallet.Client.csproj.AssemblyReference.cache
