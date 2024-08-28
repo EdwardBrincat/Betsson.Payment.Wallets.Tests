@@ -5,5 +5,7 @@
     &lt;TestId&gt;NUnit3x::9147316D-332C-4F9F-94C1-EBC7B27F4B31::net8.0::Payment.Wallet.Command.Tests.PaymentWalletComponentTests.Get_Balances_Are_Correct&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::9147316D-332C-4F9F-94C1-EBC7B27F4B31::net8.0::Payment.Wallet.Command.Tests.PaymentWalletComponentTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::9147316D-332C-4F9F-94C1-EBC7B27F4B31::net8.0::Payment.Wallet.Command.Tests.PaymentWallet.PaymentWalletComponentTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::C3177C2A-B7A1-4359-9DB6-37295AE4F7E0::net8.0::Payment.Wallet.Feature.Features.PaymentWalletsFeature.Scenario_1_Perform_payment_wallet_actions_happy_path&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>
