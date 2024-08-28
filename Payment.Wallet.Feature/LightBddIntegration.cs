@@ -12,7 +12,7 @@ using Payment.Wallet.Context;
 using Payment.Wallet.Services.Extensions;
 using Payment.Wallets.Core.Extensions;
 
-[assembly: Parallelize(Scope = ExecutionScope.MethodLevel)]
+[assembly: Parallelize(Scope = ExecutionScope.ClassLevel)]
 
 namespace Payment.Wallet.Feature;
 

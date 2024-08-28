@@ -1,0 +1,56 @@
+Summary:
+	Test execution start time       : 2024-08-28 14:53:07 UTC
+	Test execution end time         : 2024-08-28 14:53:07 UTC
+	Test execution time             : 296ms
+	Test execution time (aggregated): 563ms
+	Number of features              : 1
+	Number of scenarios             : 2
+	Passed scenarios                : 1
+	Bypassed scenarios              : 0
+	Failed scenarios                : 1
+	Ignored scenarios               : 0
+	Number of steps                 : 20
+	Passed steps                    : 18
+	Bypassed steps                  : 0
+	Failed steps                    : 1
+	Ignored steps                   : 0
+	Not Run steps                   : 1
+
+Feature: PaymentWalletsFeature [FEAT 1 - Payment Wallet]
+	In order to manage the Payment Wallet
+	    As an api service
+	    I want to be able to deposit, withdraw and get current balance
+
+	Scenario: Scenario 1 Perform payment wallet actions happy path [SCENARIO 1 - Perform Payment Wallet Actions Happy Path] - Passed (266ms)
+		Step 1: SETUP A clean up on the payment wallet is requested before test commence - Passed (179ms)
+			Step 1.1: WHEN A get wallet balance action is requested - Passed (124ms)
+			Step 1.2: AND A withdraw amount all amount action is requested - Passed (43ms)
+		Step 2: GIVEN A get wallet balance action is requested - Passed (1ms)
+		Step 3: AND The wallet balance should be set to amount "0" - Passed (9ms)
+		Step 4: WHEN A deposit amount action is requested [paymentDepositInput: "Payment.Wallet.Contracts.PaymentDepositInput"] - Passed (5ms)
+		Step 5: THEN A get wallet balance action is requested - Passed (7ms)
+		Step 6: AND The wallet balance should be set to amount "300" - Passed (<1ms)
+		Step 7: AND A withdraw amount action is requested [paymentWithdrawInput: "Payment.Wallet.Contracts.PaymentWithdrawInput"] - Passed (2ms)
+		Step 8: AND A get wallet balance action is requested - Passed (1ms)
+		Step 9: FINALLY The wallet balance should be set to amount "200" - Passed (<1ms)
+
+	Scenario: Scenario 1 Perform payment wallet actions negative path [SCENARIO 2 - Perform Payment Wallet Actions Negative Path] - Failed (296ms)
+		Step 1: SETUP A clean up on the payment wallet is requested before test commence - Passed (179ms)
+			Step 1.1: WHEN A get wallet balance action is requested - Passed (124ms)
+			Step 1.2: AND A withdraw amount all amount action is requested - Passed (43ms)
+		Step 2: GIVEN A withdraw amount action that exceeds the wallet balance is requested and return message should be "Invalid withdrawal amount. There are insufficient funds." [paymentWithdrawInput: "Payment.Wallet.Contracts.PaymentWithdrawInput"] - Passed (11ms)
+		Step 3: WHEN A deposit amount action is requested [paymentDepositInput: "Payment.Wallet.Contracts.PaymentDepositInput"] - Passed (5ms)
+		Step 4: THEN A withdraw amount action that exceeds the wallet balance is requested and return message should be "Invalid withdrawal amount. There are insufficient funds." [paymentWithdrawInput: "Payment.Wallet.Contracts.PaymentWithdrawInput"] - Passed (10ms)
+		Step 5: AND A get wallet balance action is requested - Passed (1ms)
+		Step 6: AND The wallet balance should be set to amount "300" - Failed (29ms)
+		Step 7: AND A deposit amount action with an invalid is requested and return message should be "One or more validation errors occurred." [paymentDepositInput: "<?>"] - NotRun
+		Details:
+			Step 6: NUnit.Framework.AssertionException : Expected balance.Amount to be "300", but "200" differs near "200" (index 0).
+				at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message) in /_/Src/FluentAssertions/Execution/LateBoundTestFramework.cs:line 18
+				at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message) in /_/Src/FluentAssertions/Execution/TestFrameworkProvider.cs:line 39
+				at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message) in /_/Src/FluentAssertions/Execution/DefaultAssertionStrategy.cs:line 18
+				at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc) in /_/Src/FluentAssertions/Execution/AssertionScope.cs:line 291
+				at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc) in /_/Src/FluentAssertions/Execution/AssertionScope.cs:line 259
+				at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args) in /_/Src/FluentAssertions/Execution/AssertionScope.cs:line 313
+				at FluentAssertions.Primitives.StringEqualityStrategy.ValidateAgainstMismatch(IAssertionScope assertion, String subject, String expected) in /_/Src/FluentAssertions/Primitives/StringEqualityStrategy.cs:line 57
+				at FluentAssertions.Primitives.StringValidator.Validate(String subject, String expected) in /_/Src/FluentAssertions/Primitives/StringValidator.cs:line 34

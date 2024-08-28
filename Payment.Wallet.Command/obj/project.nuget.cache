@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4P90inwUNPBSO9bxBrOcaWGU2AVQzVog+/0wku/9J3yHNpYitvv2GWTSluabBG4cqa78CsNoEOANTVzKJ2QTyw==",
+  "dgSpecHash": "+tSLpmvg0FfVC48Vuia3+Pcl7nMqGZI1WJiiFl9rf6QhwqqGN/ywnUeK1WzMtO4pXDRdj4LrqzJs39vDHnUubg==",
   "success": true,
   "projectFilePath": "C:\\repos\\Betsson.Payment.Wallets.Tests\\Payment.Wallet.Command\\Payment.Wallet.Command.csproj",
   "expectedPackageFiles": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lnMaaRkfxgn6g/deL+0aAFhfkwILGZgZSbmjfUQttplztE65JBAX6yfl3HvhY7tM+lHLqvxD78CO4dXIc0KPqQ==",
+  "dgSpecHash": "Uzqc14ag6pOi6Sa4ZY0njvttYZzSf87iY5nksP+bOyzoRYppXqr7Fu2XlnXCAPTGnkCbx5q+/P2S1qxU6NzWYg==",
   "success": true,
   "projectFilePath": "C:\\repos\\Betsson.Payment.Wallets.Tests\\Payment.Wallet.Api.Fixtures\\Payment.Wallet.Api.Fixtures.csproj",
   "expectedPackageFiles": [
