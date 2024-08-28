@@ -970,6 +970,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "LightBDD.Framework": "3.6.1",
           "Payment.Wallet.Command": "1.0.0",
           "Payment.Wallets.Core": "1.0.0"
         },

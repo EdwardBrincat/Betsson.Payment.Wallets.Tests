@@ -2,11 +2,14 @@
 
 public class PaymentWalletBase
 {
-    public int Amount { get; set; }
+    public string Amount { get; set; }
 }
 
 public class PaymentDepositInput : PaymentWalletBase;
 
 public class PaymentWithdrawInput : PaymentWalletBase;
 
-public class PaymentBalanceResult : PaymentWalletBase;
+public class PaymentBalanceResult : PaymentWalletBase
+{
+    public string Title { get; set; }
+}

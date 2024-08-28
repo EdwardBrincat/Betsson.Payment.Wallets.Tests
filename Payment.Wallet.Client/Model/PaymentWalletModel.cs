@@ -2,11 +2,14 @@
 
 public class PaymentWalletModel
 {
-    public int Amount { get; set; }
+    public string Amount { get; set; }
 }
 
 public class PaymentDepositRequest : PaymentWalletModel;
 
 public class PaymentWithdrawRequest : PaymentWalletModel;
 
-public class PaymentBalanceResponse : PaymentWalletModel;
+public class PaymentBalanceResponse : PaymentWalletModel
+{
+    public string Title { get; set; }
+}

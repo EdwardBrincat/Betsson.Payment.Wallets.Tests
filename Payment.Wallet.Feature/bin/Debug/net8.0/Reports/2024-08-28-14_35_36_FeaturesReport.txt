@@ -1,0 +1,43 @@
+Summary:
+	Test execution start time       : 2024-08-28 14:35:36 UTC
+	Test execution end time         : 2024-08-28 14:35:37 UTC
+	Test execution time             : 294ms
+	Test execution time (aggregated): 294ms
+	Number of features              : 1
+	Number of scenarios             : 1
+	Passed scenarios                : 0
+	Bypassed scenarios              : 0
+	Failed scenarios                : 1
+	Ignored scenarios               : 0
+	Number of steps                 : 9
+	Passed steps                    : 7
+	Bypassed steps                  : 0
+	Failed steps                    : 1
+	Ignored steps                   : 0
+	Not Run steps                   : 1
+
+Feature: PaymentWalletsFeature [FEAT 1 - Payment Wallet]
+	In order to manage the Payment Wallet
+	    As an api service
+	    I want to be able to deposit, withdraw and get current balance
+
+	Scenario: Scenario 1 Perform payment wallet actions negative path [SCENARIO 2 - Perform Payment Wallet Actions Negative Path] - Failed (294ms)
+		Step 1: SETUP A clean up on the payment wallet is requested before test commence - Passed (157ms)
+			Step 1.1: WHEN A get wallet balance action is requested - Passed (111ms)
+			Step 1.2: AND A withdraw amount all amount action is requested - Passed (37ms)
+		Step 2: GIVEN A withdraw amount action that exceeds the wallet balance is requested and return message should be "Invalid withdrawal amount. There are insufficient funds." [paymentWithdrawInput: "Payment.Wallet.Contracts.PaymentWithdrawInput"] - Passed (16ms)
+		Step 3: WHEN A deposit amount action is requested [paymentDepositInput: "Payment.Wallet.Contracts.PaymentDepositInput"] - Passed (5ms)
+		Step 4: THEN A withdraw amount action that exceeds the wallet balance is requested and return message should be "Invalid withdrawal amount. There are insufficient funds." [paymentWithdrawInput: "Payment.Wallet.Contracts.PaymentWithdrawInput"] - Passed (3ms)
+		Step 5: AND A get wallet balance action is requested - Passed (1ms)
+		Step 6: AND The wallet balance should be set to amount "0" - Failed (52ms)
+		Step 7: AND A deposit amount action with an invalid is requested and return message should be "One or more validation errors occurred." [paymentDepositInput: "<?>"] - NotRun
+		Details:
+			Step 6: Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException : Expected balance.Amount to be 0, but found 300 (difference of 300).
+				at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message) in /_/Src/FluentAssertions/Execution/LateBoundTestFramework.cs:line 18
+				at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message) in /_/Src/FluentAssertions/Execution/TestFrameworkProvider.cs:line 39
+				at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message) in /_/Src/FluentAssertions/Execution/DefaultAssertionStrategy.cs:line 18
+				at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc) in /_/Src/FluentAssertions/Execution/AssertionScope.cs:line 291
+				at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc) in /_/Src/FluentAssertions/Execution/AssertionScope.cs:line 259
+				at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args) in /_/Src/FluentAssertions/Execution/AssertionScope.cs:line 313
+				at FluentAssertions.Numeric.NumericAssertions`2.Be(T expected, String because, Object[] becauseArgs) in /_/Src/FluentAssertions/Numeric/NumericAssertions.cs:line 59
+				at Payment.Wallet.Api.Fixtures.PaymentWallet.PaymentWalletApiFixture.The_wallet_balance_should_be_set_to_amount_AMOUNT(Int32 amount) in C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\PaymentWallet\PaymentWalletApiFixture.cs:line 56

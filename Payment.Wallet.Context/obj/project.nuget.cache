@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cNKM777Ukam7Ilxg/GdXEtX510+pZGms7c+Z2MTUpBrBE6Yqb9nMbjUodsMCyHu1cwkTeTGY9uNJiTz/NcCqVw==",
+  "dgSpecHash": "Cxt+nkZKofs8IxyG41ctAo1mVTzYUcup5J6MhKy08/FNhEeCB3Ie5EJ+j8YADnBrZBYt/RQ3x0oOLkuWxABWbQ==",
   "success": true,
   "projectFilePath": "C:\\repos\\Betsson.Payment.Wallets.Tests\\Payment.Wallet.Context\\Payment.Wallet.Context.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\fare\\2.2.1\\fare.2.2.1.nupkg.sha512",
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\lightbdd.core\\3.6.1\\lightbdd.core.3.6.1.nupkg.sha512",
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\lightbdd.framework\\3.6.1\\lightbdd.framework.3.6.1.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0-preview.7.24405.7\\microsoft.extensions.configuration.9.0.0-preview.7.24405.7.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0-preview.7.24405.7\\microsoft.extensions.configuration.abstractions.9.0.0-preview.7.24405.7.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.0-preview.7.24405.7\\microsoft.extensions.configuration.binder.9.0.0-preview.7.24405.7.nupkg.sha512",

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9ltYfxZj+2IAQpZTTB4ky3NVyEE6tIbxqWC30/0TeQFZvDLFpaKNpk90YuyaoWVjiTIdxDV63xbfMogLqe2wDA==",
+  "success": true,
+  "projectFilePath": "C:\\repos\\Betsson.Payment.Wallets.Tests\\Payment.Wallet.Validators\\Payment.Wallet.Validators.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\fluentassertions\\7.0.0-alpha.4\\fluentassertions.7.0.0-alpha.4.nupkg.sha512",
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

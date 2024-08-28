@@ -64,6 +64,35 @@
           }
         }
       },
+      "LightBDD.Core/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LightBDD.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/LightBDD.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "LightBDD.Framework/3.6.1": {
+        "type": "package",
+        "dependencies": {
+          "LightBDD.Core": "3.6.1"
+        },
+        "compile": {
+          "lib/net6.0/LightBDD.Framework.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/LightBDD.Framework.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/9.0.0-preview.7.24405.7": {
         "type": "package",
         "dependencies": {
@@ -451,6 +480,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "LightBDD.Framework": "3.6.1",
           "Payment.Wallet.Command": "1.0.0",
           "Payment.Wallets.Core": "1.0.0"
         },
@@ -628,6 +658,47 @@
         "lib/netstandard1.1/Fare.xml",
         "lib/netstandard2.0/Fare.dll",
         "lib/netstandard2.0/Fare.xml"
+      ]
+    },
+    "LightBDD.Core/3.6.1": {
+      "sha512": "zA2a+c0H4DpoouYhYTyIzjQvNkdseTlofQbmsaUr2tzWF+/fNx26N66IwPGKnOIPmW4BzHQNvScGC7uL5TkNlg==",
+      "type": "package",
+      "path": "lightbdd.core/3.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net461/LightBDD.Core.dll",
+        "lib/net461/LightBDD.Core.pdb",
+        "lib/net461/LightBDD.Core.xml",
+        "lib/netstandard2.0/LightBDD.Core.dll",
+        "lib/netstandard2.0/LightBDD.Core.pdb",
+        "lib/netstandard2.0/LightBDD.Core.xml",
+        "lightbdd.core.3.6.1.nupkg.sha512",
+        "lightbdd.core.nuspec",
+        "lightbdd.png"
+      ]
+    },
+    "LightBDD.Framework/3.6.1": {
+      "sha512": "XQewJY8eQ3X17PvW/VxBxlTv/Y1UQJdhI4OBkQr+nuP6LZPWRV0HOHH4iMlxWkgLTrVoS/lbcmTu7Etv3lanQg==",
+      "type": "package",
+      "path": "lightbdd.framework/3.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net461/LightBDD.Framework.dll",
+        "lib/net461/LightBDD.Framework.pdb",
+        "lib/net461/LightBDD.Framework.xml",
+        "lib/net6.0/LightBDD.Framework.dll",
+        "lib/net6.0/LightBDD.Framework.pdb",
+        "lib/net6.0/LightBDD.Framework.xml",
+        "lib/netstandard2.0/LightBDD.Framework.dll",
+        "lib/netstandard2.0/LightBDD.Framework.pdb",
+        "lib/netstandard2.0/LightBDD.Framework.xml",
+        "lightbdd.framework.3.6.1.nupkg.sha512",
+        "lightbdd.framework.nuspec",
+        "lightbdd.png"
       ]
     },
     "Microsoft.Extensions.Configuration/9.0.0-preview.7.24405.7": {

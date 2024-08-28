@@ -30,7 +30,7 @@ public class PaymentWalletComponentTests
     public void Get_Wallet_Balance_is_Correct()
     {
         var paymentBalanceResponse = new PaymentBalanceResponse
-        { Amount = 100 };
+        { Amount = "100" };
 
         var httpResponse = new HttpResponseMessage(HttpStatusCode.OK)
         { Content = new StringContent(JsonConvert.SerializeObject(paymentBalanceResponse)) };
@@ -50,10 +50,10 @@ public class PaymentWalletComponentTests
     public void Execute_Deposit_Amount_is_Correct()
     {
         var paymentDepositRequest = new PaymentDepositRequest
-        { Amount = 100 };
+        { Amount = "100" };
 
         var paymentBalanceResponse = new PaymentBalanceResponse
-        { Amount = 100 };
+        { Amount = "100" };
 
         var httpResponse = new HttpResponseMessage(HttpStatusCode.OK)
         { Content = new StringContent(JsonConvert.SerializeObject(paymentBalanceResponse)) };
@@ -73,10 +73,10 @@ public class PaymentWalletComponentTests
     public void Execute_Withdraw_Amount_is_Correct()
     {
         var paymentWithdrawRequest = new PaymentWithdrawRequest
-        { Amount = 100 };
+        { Amount = "100" };
 
         var paymentBalanceResponse = new PaymentBalanceResponse
-        { Amount = 100 };
+        { Amount = "100" };
 
         var httpResponse = new HttpResponseMessage(HttpStatusCode.OK)
         { Content = new StringContent(JsonConvert.SerializeObject(paymentBalanceResponse)) };

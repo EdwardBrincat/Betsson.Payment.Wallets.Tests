@@ -1,0 +1,33 @@
+Summary:
+	Test execution start time       : 2024-08-28 14:42:22 UTC
+	Test execution end time         : 2024-08-28 14:42:22 UTC
+	Test execution time             : 266ms
+	Test execution time (aggregated): 266ms
+	Number of features              : 1
+	Number of scenarios             : 1
+	Passed scenarios                : 1
+	Bypassed scenarios              : 0
+	Failed scenarios                : 0
+	Ignored scenarios               : 0
+	Number of steps                 : 9
+	Passed steps                    : 9
+	Bypassed steps                  : 0
+	Failed steps                    : 0
+	Ignored steps                   : 0
+	Not Run steps                   : 0
+
+Feature: PaymentWalletsFeature [FEAT 1 - Payment Wallet]
+	In order to manage the Payment Wallet
+	    As an api service
+	    I want to be able to deposit, withdraw and get current balance
+
+	Scenario: Scenario 1 Perform payment wallet actions negative path [SCENARIO 2 - Perform Payment Wallet Actions Negative Path] - Passed (266ms)
+		Step 1: SETUP A clean up on the payment wallet is requested before test commence - Passed (180ms)
+			Step 1.1: WHEN A get wallet balance action is requested - Passed (129ms)
+			Step 1.2: AND A withdraw amount all amount action is requested - Passed (40ms)
+		Step 2: GIVEN A withdraw amount action that exceeds the wallet balance is requested and return message should be "Invalid withdrawal amount. There are insufficient funds." [paymentWithdrawInput: "Payment.Wallet.Contracts.PaymentWithdrawInput"] - Passed (15ms)
+		Step 3: WHEN A deposit amount action is requested [paymentDepositInput: "Payment.Wallet.Contracts.PaymentDepositInput"] - Passed (4ms)
+		Step 4: THEN A withdraw amount action that exceeds the wallet balance is requested and return message should be "Invalid withdrawal amount. There are insufficient funds." [paymentWithdrawInput: "Payment.Wallet.Contracts.PaymentWithdrawInput"] - Passed (2ms)
+		Step 5: AND A get wallet balance action is requested - Passed (1ms)
+		Step 6: AND The wallet balance should be set to amount "300" - Passed (<1ms)
+		Step 7: AND A deposit amount action with an invalid is requested and return message should be "One or more validation errors occurred." [paymentDepositInput: "Payment.Wallet.Contracts.PaymentDepositInput"] - Passed (3ms)

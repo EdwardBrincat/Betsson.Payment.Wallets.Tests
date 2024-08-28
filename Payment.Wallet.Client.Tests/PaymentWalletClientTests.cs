@@ -25,7 +25,7 @@ public class PaymentWalletClientTests
     public async Task PaymentWallet_DepositAmount_IntegrationTest()
     {
         var request = new PaymentDepositRequest
-        { Amount = 100 };
+        { Amount = "100" };
 
         var response = await _paymentWalletClient.Deposit(request);
 
@@ -37,7 +37,7 @@ public class PaymentWalletClientTests
     public async Task PaymentWallet_WithdrawAmount_IntegrationTest()
     {
         var request = new PaymentWithdrawRequest
-        { Amount = 10 };
+        { Amount = "10" };
 
         var response = await _paymentWalletClient.Withdraw(request);
 

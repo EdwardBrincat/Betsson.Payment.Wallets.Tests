@@ -7,7 +7,8 @@ public static class ServiceCollectionExtensions
 {
     public static IServiceCollection AddPaymentWalletApiFixtures(this IServiceCollection services)
     {
-       services.AddScoped<PaymentWalletApiFixture>();
-       return services;
+        services.AddScoped<PaymentWalletApiFixture>();
+        services.AddScoped<PaymentWalletApiCompositeFixture>();
+        return services;
     }
 }

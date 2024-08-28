@@ -1,6 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=856e59bb_002D5933_002D409c_002D8c8c_002Dc1165ecb8856/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PaymentWalletsFeature" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;MSTest::D8272F2A-8E49-4676-9E04-A474F26E23EE::net8.0::Payment.Wallet.Feature.Features.PaymentWalletsFeature&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;Project Location="C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client.Tests" Presentation="&amp;lt;Payment.Wallet.Client.Tests&amp;gt;" /&gt;&#xD;
+    &lt;Project Location="C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Command.Tests" Presentation="&amp;lt;Payment.Wallet.Command.Tests&amp;gt;" /&gt;&#xD;
+    &lt;Project Location="C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Feature" Presentation="&amp;lt;Payment.Wallet.Feature&amp;gt;" /&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

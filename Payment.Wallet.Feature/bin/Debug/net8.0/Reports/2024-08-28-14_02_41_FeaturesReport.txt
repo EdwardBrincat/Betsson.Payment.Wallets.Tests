@@ -1,0 +1,35 @@
+Summary:
+	Test execution start time       : 2024-08-28 14:02:41 UTC
+	Test execution end time         : 2024-08-28 14:02:41 UTC
+	Test execution time             : 253ms
+	Test execution time (aggregated): 253ms
+	Number of features              : 1
+	Number of scenarios             : 1
+	Passed scenarios                : 1
+	Bypassed scenarios              : 0
+	Failed scenarios                : 0
+	Ignored scenarios               : 0
+	Number of steps                 : 11
+	Passed steps                    : 11
+	Bypassed steps                  : 0
+	Failed steps                    : 0
+	Ignored steps                   : 0
+	Not Run steps                   : 0
+
+Feature: PaymentWalletsFeature [FEAT 1 - Payment Wallet]
+	In order to manage the Payment Wallet
+	    As an api service
+	    I want to be able to deposit, withdraw and get current balance
+
+	Scenario: Scenario 1 Perform payment wallet actions happy path [SCENARIO 1 - Perform Payment Wallet Actions Happy Path] - Passed (253ms)
+		Step 1: SETUP A clean up on the payment wallet is requested before test commence - Passed (162ms)
+			Step 1.1: WHEN A get wallet balance action is requested - Passed (105ms)
+			Step 1.2: AND A withdraw amount all amount action is requested - Passed (43ms)
+		Step 2: GIVEN A get wallet balance action is requested - Passed (3ms)
+		Step 3: AND The wallet balance should be set to amount "0" - Passed (8ms)
+		Step 4: WHEN A deposit amount action is requested [paymentDepositInput: "Payment.Wallet.Contracts.PaymentDepositInput"] - Passed (6ms)
+		Step 5: THEN A get wallet balance action is requested - Passed (2ms)
+		Step 6: AND The wallet balance should be set to amount "300" - Passed (<1ms)
+		Step 7: AND A withdraw amount action is requested [paymentWithdrawInput: "Payment.Wallet.Contracts.PaymentWithdrawInput"] - Passed (3ms)
+		Step 8: AND A get wallet balance action is requested - Passed (1ms)
+		Step 9: FINALLY The wallet balance should be set to amount "200" - Passed (<1ms)

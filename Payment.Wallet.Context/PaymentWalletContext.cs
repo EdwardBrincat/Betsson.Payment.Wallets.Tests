@@ -7,13 +7,16 @@ public class PaymentWalletContext
 {
     public ScenarioContext ScenarioContext { get; set; }
     public PaymentWalletApiFixture PaymentWalletApiFixture { get; }
+    public PaymentWalletApiCompositeFixture PaymentWalletApiCompositeFixture { get; }
 
     public PaymentWalletContext(
         ScenarioContext scenarioContext,
-        PaymentWalletApiFixture paymentWalletApiFixture
+        PaymentWalletApiFixture paymentWalletApiFixture,
+        PaymentWalletApiCompositeFixture paymentWalletApiCompositeFixture
     )
     {
         ScenarioContext = scenarioContext;
         PaymentWalletApiFixture = paymentWalletApiFixture;
+        PaymentWalletApiCompositeFixture = paymentWalletApiCompositeFixture;
     }
 }

@@ -17,4 +17,8 @@
       </Reference>
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="LightBDD.Framework" Version="3.6.1" />
+    </ItemGroup>
+
 </Project>

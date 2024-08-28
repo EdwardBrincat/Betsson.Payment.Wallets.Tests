@@ -1,50 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TestResults>
-  <Summary TestExecutionStart="2024-08-28T13:47:34.9520103Z" TestExecutionEnd="2024-08-28T13:47:35.2384093Z" TestExecutionTime="PT0.286399S">
+  <Summary TestExecutionStart="2024-08-28T14:42:22.0783588Z" TestExecutionEnd="2024-08-28T14:42:22.3448282Z" TestExecutionTime="PT0.2664694S">
     <Features Count="1" />
     <Scenarios Count="1" Passed="1" Bypassed="0" Failed="0" Ignored="0" />
-    <Steps Count="8" Passed="8" Bypassed="0" Failed="0" Ignored="0" NotRun="0" />
+    <Steps Count="9" Passed="9" Bypassed="0" Failed="0" Ignored="0" NotRun="0" />
   </Summary>
-  <Feature Name="PaymentWalletsFeature" RuntimeId="308ee05e-decb-4098-b8d4-511ec6a3a7c3">
+  <Feature Name="PaymentWalletsFeature" RuntimeId="bcd2100a-bbdb-42d7-a180-65b313c84973">
     <Label Name="FEAT 1 - Payment Wallet" />
     <Description>In order to manage the Payment Wallet
     As an api service
     I want to be able to deposit, withdraw and get current balance</Description>
-    <Scenario Status="Passed" Name="Scenario 1 Perform payment wallet actions happy path" ExecutionStart="2024-08-28T13:47:34.9520103Z" ExecutionTime="PT0.286399S" RuntimeId="5c380ed9-ade0-4d8c-91c3-b0b965e05c40">
-      <Name Format="Scenario 1 Perform payment wallet actions happy path" />
-      <Label Name="SCENARIO 1 - Perform Payment Wallet Actions Happy Path" />
-      <Step Status="Passed" Number="1" Name="GIVEN A get wallet balance action is requested" ExecutionStart="2024-08-28T13:47:35.0055543Z" ExecutionTime="PT0.1069713S" RuntimeId="d5513e6a-2a7b-4f1e-adf4-f9c77948efad">
-        <StepName StepType="GIVEN" Format="A get wallet balance action is requested" />
+    <Scenario Status="Passed" Name="Scenario 1 Perform payment wallet actions negative path" ExecutionStart="2024-08-28T14:42:22.0783588Z" ExecutionTime="PT0.2664694S" RuntimeId="ffe88ad3-1cc1-4e5e-b4ee-8555947d8cbb">
+      <Name Format="Scenario 1 Perform payment wallet actions negative path" />
+      <Label Name="SCENARIO 2 - Perform Payment Wallet Actions Negative Path" />
+      <Step Status="Passed" Number="1" Name="SETUP A clean up on the payment wallet is requested before test commence" ExecutionStart="2024-08-28T14:42:22.1347915Z" ExecutionTime="PT0.1803205S" RuntimeId="57366f9d-14e2-44a6-b405-b17bc717b923">
+        <StepName StepType="SETUP" Format="A clean up on the payment wallet is requested before test commence" />
+        <SubStep Status="Passed" Number="1" Name="WHEN A get wallet balance action is requested" ExecutionStart="2024-08-28T14:42:22.1407714Z" ExecutionTime="PT0.1292931S" GroupPrefix="1." RuntimeId="7caa8372-8082-46b8-a7ac-871de377772c">
+          <StepName StepType="WHEN" Format="A get wallet balance action is requested" />
+        </SubStep>
+        <SubStep Status="Passed" Number="2" Name="AND A withdraw amount all amount action is requested" ExecutionStart="2024-08-28T14:42:22.2729502Z" ExecutionTime="PT0.0409668S" GroupPrefix="1." RuntimeId="f4d79e45-3768-4d89-a95c-578f727bd802">
+          <StepName StepType="AND" Format="A withdraw amount all amount action is requested" />
+        </SubStep>
       </Step>
-      <Step Status="Passed" Number="2" Name="THEN The wallet balance should be set to amount &quot;0&quot;" ExecutionStart="2024-08-28T13:47:35.1150395Z" ExecutionTime="PT0.0074331S" RuntimeId="0ea2e261-8b60-4f4d-b2e4-ca3b878c07ef">
-        <StepName StepType="THEN" Format="The wallet balance should be set to amount &quot;{0}&quot;">
-          <Parameter IsEvaluated="true">0</Parameter>
+      <Step Status="Passed" Number="2" Name="GIVEN A withdraw amount action that exceeds the wallet balance is requested and return message should be &quot;Invalid withdrawal amount. There are insufficient funds.&quot; [paymentWithdrawInput: &quot;Payment.Wallet.Contracts.PaymentWithdrawInput&quot;]" ExecutionStart="2024-08-28T14:42:22.3152174Z" ExecutionTime="PT0.0154091S" RuntimeId="4d0ac239-4617-4c68-b925-7d5a2b49b680">
+        <StepName StepType="GIVEN" Format="A withdraw amount action that exceeds the wallet balance is requested and return message should be &quot;{1}&quot; [paymentWithdrawInput: &quot;{0}&quot;]">
+          <Parameter IsEvaluated="true">Payment.Wallet.Contracts.PaymentWithdrawInput</Parameter>
+          <Parameter IsEvaluated="true">Invalid withdrawal amount. There are insufficient funds.</Parameter>
         </StepName>
       </Step>
-      <Step Status="Passed" Number="3" Name="GIVEN A deposit amount action is requested [paymentDepositInput: &quot;Payment.Wallet.Contracts.PaymentDepositInput&quot;]" ExecutionStart="2024-08-28T13:47:35.1225305Z" ExecutionTime="PT0.0957772S" RuntimeId="02c58af8-81fc-418c-bb20-e178f6918935">
-        <StepName StepType="GIVEN" Format="A deposit amount action is requested [paymentDepositInput: &quot;{0}&quot;]">
+      <Step Status="Passed" Number="3" Name="WHEN A deposit amount action is requested [paymentDepositInput: &quot;Payment.Wallet.Contracts.PaymentDepositInput&quot;]" ExecutionStart="2024-08-28T14:42:22.3306699Z" ExecutionTime="PT0.004984S" RuntimeId="a0877b3f-a1c7-481e-9214-1152159c74eb">
+        <StepName StepType="WHEN" Format="A deposit amount action is requested [paymentDepositInput: &quot;{0}&quot;]">
           <Parameter IsEvaluated="true">Payment.Wallet.Contracts.PaymentDepositInput</Parameter>
         </StepName>
       </Step>
-      <Step Status="Passed" Number="4" Name="AND A get wallet balance action is requested" ExecutionStart="2024-08-28T13:47:35.2183369Z" ExecutionTime="PT0.0066652S" RuntimeId="92f96ed4-cb0a-41d6-b154-fb8965868353">
+      <Step Status="Passed" Number="4" Name="THEN A withdraw amount action that exceeds the wallet balance is requested and return message should be &quot;Invalid withdrawal amount. There are insufficient funds.&quot; [paymentWithdrawInput: &quot;Payment.Wallet.Contracts.PaymentWithdrawInput&quot;]" ExecutionStart="2024-08-28T14:42:22.3356822Z" ExecutionTime="PT0.0028548S" RuntimeId="54946589-c27a-43ec-9251-eb4253e9b490">
+        <StepName StepType="THEN" Format="A withdraw amount action that exceeds the wallet balance is requested and return message should be &quot;{1}&quot; [paymentWithdrawInput: &quot;{0}&quot;]">
+          <Parameter IsEvaluated="true">Payment.Wallet.Contracts.PaymentWithdrawInput</Parameter>
+          <Parameter IsEvaluated="true">Invalid withdrawal amount. There are insufficient funds.</Parameter>
+        </StepName>
+      </Step>
+      <Step Status="Passed" Number="5" Name="AND A get wallet balance action is requested" ExecutionStart="2024-08-28T14:42:22.3385676Z" ExecutionTime="PT0.001508S" RuntimeId="4f198a04-6fa3-4302-b0af-aad27b38e3c7">
         <StepName StepType="AND" Format="A get wallet balance action is requested" />
       </Step>
-      <Step Status="Passed" Number="5" Name="THEN The wallet balance should be set to amount &quot;300&quot;" ExecutionStart="2024-08-28T13:47:35.2250292Z" ExecutionTime="PT0.0000238S" RuntimeId="20eda99a-30da-422f-8e70-6c7f567c702d">
-        <StepName StepType="THEN" Format="The wallet balance should be set to amount &quot;{0}&quot;">
+      <Step Status="Passed" Number="6" Name="AND The wallet balance should be set to amount &quot;300&quot;" ExecutionStart="2024-08-28T14:42:22.340095Z" ExecutionTime="PT0.0001918S" RuntimeId="a84efe43-5144-4383-a248-2f908a7df7e5">
+        <StepName StepType="AND" Format="The wallet balance should be set to amount &quot;{0}&quot;">
           <Parameter IsEvaluated="true">300</Parameter>
         </StepName>
       </Step>
-      <Step Status="Passed" Number="6" Name="GIVEN A withdraw amount action is requested [paymentWithdrawInput: &quot;Payment.Wallet.Contracts.PaymentWithdrawInput&quot;]" ExecutionStart="2024-08-28T13:47:35.2250632Z" ExecutionTime="PT0.0094226S" RuntimeId="5270cd84-d00f-4efa-a00f-ec7ec040dfa3">
-        <StepName StepType="GIVEN" Format="A withdraw amount action is requested [paymentWithdrawInput: &quot;{0}&quot;]">
-          <Parameter IsEvaluated="true">Payment.Wallet.Contracts.PaymentWithdrawInput</Parameter>
-        </StepName>
-      </Step>
-      <Step Status="Passed" Number="7" Name="AND A get wallet balance action is requested" ExecutionStart="2024-08-28T13:47:35.2345145Z" ExecutionTime="PT0.002514S" RuntimeId="f74c9ae3-fb60-4e64-8b1a-a567b8151e80">
-        <StepName StepType="AND" Format="A get wallet balance action is requested" />
-      </Step>
-      <Step Status="Passed" Number="8" Name="THEN The wallet balance should be set to amount &quot;200&quot;" ExecutionStart="2024-08-28T13:47:35.237051Z" ExecutionTime="PT0.0000221S" RuntimeId="a4c739f7-95b3-4683-bb33-453c5a1401b0">
-        <StepName StepType="THEN" Format="The wallet balance should be set to amount &quot;{0}&quot;">
-          <Parameter IsEvaluated="true">200</Parameter>
+      <Step Status="Passed" Number="7" Name="AND A deposit amount action with an invalid is requested and return message should be &quot;One or more validation errors occurred.&quot; [paymentDepositInput: &quot;Payment.Wallet.Contracts.PaymentDepositInput&quot;]" ExecutionStart="2024-08-28T14:42:22.3402992Z" ExecutionTime="PT0.0036006S" RuntimeId="ead19ed3-a7d2-47f6-a6bc-950800e42863">
+        <StepName StepType="AND" Format="A deposit amount action with an invalid is requested and return message should be &quot;{1}&quot; [paymentDepositInput: &quot;{0}&quot;]">
+          <Parameter IsEvaluated="true">Payment.Wallet.Contracts.PaymentDepositInput</Parameter>
+          <Parameter IsEvaluated="true">One or more validation errors occurred.</Parameter>
         </StepName>
       </Step>
     </Scenario>
