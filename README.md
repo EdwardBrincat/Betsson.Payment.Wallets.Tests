@@ -16,6 +16,6 @@ Payment.Wallet.Tests uses LightBDD Framework to test the Betsson Online Service.
 - Payment.Wallet.Context Project
 - Payment.Wallet.Feature Project which contains the happy and negative path scenarios
 
-  Tests can either be executed through Rider or without using any IDE, this can be done by running run-tests.cmd through command prompt. This file can found in the solution folder.
+  Tests can either be executed through Rider or else without using any IDE through command prompt, this can be done by running run-tests.cmd through command prompt. This file can found in the solution folder. Once the file executes a report will be loaded within your default browser.
 
   N.B. Within the Config project the base url for the online payment service has to be specified so that the tests can be executed.
