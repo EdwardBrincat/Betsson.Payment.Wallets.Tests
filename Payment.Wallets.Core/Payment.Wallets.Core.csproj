@@ -6,9 +6,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\Payment.Wallet.Command\Payment.Wallet.Command.csproj" />
-      <ProjectReference Include="..\Payment.Wallets.Core\Payment.Wallets.Core.csproj" />
-    </ItemGroup>
-
 </Project>
