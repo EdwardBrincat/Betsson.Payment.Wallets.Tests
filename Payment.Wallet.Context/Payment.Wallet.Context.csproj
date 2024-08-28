@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Payment.Wallet.Api.Fixtures\Payment.Wallet.Api.Fixtures.csproj" />
+      <ProjectReference Include="..\Payment.Wallets.Core\Payment.Wallets.Core.csproj" />
+    </ItemGroup>
+
+</Project>

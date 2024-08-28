@@ -1,4 +1,5 @@
-﻿using Payment.Wallet.Command.PaymentWallet;
+﻿using FluentAssertions;
+using Payment.Wallet.Command.PaymentWallet;
 using Payment.Wallet.Contracts;
 using Payment.Wallets.Core;
 using Payment.Wallets.Core.Common;
@@ -31,5 +32,12 @@ public class PaymentWalletApiFixture
     {
         var result = await _paymentWalletCommandFactory.ExecuteWithdrawCommand(paymentWithdrawInput);
         ScenarioContext.AddOrUpdateValue($"{PaymentKeys.Withdrawal}", result);
+    }
+    
+    public void The_wallet_balance_should_be_set_to_zero()
+    {
+        var balance = ScenarioContext.GetValue<int>($"{PaymentKeys.Balance}");
+        
+        balance.Should().Be(0);
     }
 }

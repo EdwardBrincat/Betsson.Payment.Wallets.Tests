@@ -25,3 +25,6 @@ C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\obj\Debug\net
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\obj\Debug\net8.0\refint\Payment.Wallet.Api.Fixtures.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\obj\Debug\net8.0\Payment.Wallet.Api.Fixtures.pdb
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\obj\Debug\net8.0\ref\Payment.Wallet.Api.Fixtures.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\FluentAssertions.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\FluentAssertions.pdb
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\FluentAssertions.xml

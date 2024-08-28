@@ -11,4 +11,10 @@
       <ProjectReference Include="..\Payment.Wallets.Core\Payment.Wallets.Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Reference Include="FluentAssertions">
+        <HintPath>..\..\..\Users\EdwardBrincat\.nuget\packages\fluentassertions\7.0.0-alpha.4\lib\net6.0\FluentAssertions.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

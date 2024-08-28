@@ -5,7 +5,7 @@ namespace Payment.Wallet.Api.Fixtures.Extension;
 
 public static class ServiceCollectionExtensions
 {
-    public static IServiceCollection AddBackOfficeApiFixtures(this IServiceCollection services)
+    public static IServiceCollection AddPaymentWalletApiFixtures(this IServiceCollection services)
     {
        services.AddScoped<PaymentWalletApiFixture>();
        return services;
