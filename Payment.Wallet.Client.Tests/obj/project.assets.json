@@ -1006,11 +1006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\Payment.Wallet.Tests\\Payment.Wallet.Client.Tests\\Payment.Wallet.Client.Tests.csproj",
+      "projectUniqueName": "C:\\repos\\Betsson.Payment.Wallets.Tests\\Payment.Wallet.Client.Tests\\Payment.Wallet.Client.Tests.csproj",
       "projectName": "Payment.Wallet.Client.Tests",
-      "projectPath": "C:\\repos\\Payment.Wallet.Tests\\Payment.Wallet.Client.Tests\\Payment.Wallet.Client.Tests.csproj",
+      "projectPath": "C:\\repos\\Betsson.Payment.Wallets.Tests\\Payment.Wallet.Client.Tests\\Payment.Wallet.Client.Tests.csproj",
       "packagesPath": "C:\\Users\\EdwardBrincat\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\Payment.Wallet.Tests\\Payment.Wallet.Client.Tests\\obj\\",
+      "outputPath": "C:\\repos\\Betsson.Payment.Wallets.Tests\\Payment.Wallet.Client.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EdwardBrincat\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1025,8 +1025,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\repos\\Payment.Wallet.Tests\\Payment.Wallet.Client\\Payment.Wallet.Client.csproj": {
-              "projectPath": "C:\\repos\\Payment.Wallet.Tests\\Payment.Wallet.Client\\Payment.Wallet.Client.csproj"
+            "C:\\repos\\Betsson.Payment.Wallets.Tests\\Payment.Wallet.Client\\Payment.Wallet.Client.csproj": {
+              "projectPath": "C:\\repos\\Betsson.Payment.Wallets.Tests\\Payment.Wallet.Client\\Payment.Wallet.Client.csproj"
             }
           }
         }

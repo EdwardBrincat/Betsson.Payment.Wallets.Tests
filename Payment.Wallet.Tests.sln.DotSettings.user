@@ -1,8 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cdcd2c78_002Dee97_002D4ddf_002Da5f7_002Dd0f9b81ff9a4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PaymentWallet_DepositAmount_IntegrationTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=de162e30_002D9071_002D4333_002D90ed_002De7737dc64bc3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PaymentWalletClientTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::ADF0413D-AF35-4ADD-832E-4C0B34287D1B::net8.0::Payment.Wallet.Client.Tests.PaymentWalletClientTests.PaymentWallet_DepositAmount_IntegrationTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::ADF0413D-AF35-4ADD-832E-4C0B34287D1B::net8.0::Payment.Wallet.Client.Tests.PaymentWalletClientTests.PaymentWallet_GetBalances_IntegrationTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::ADF0413D-AF35-4ADD-832E-4C0B34287D1B::net8.0::Payment.Wallet.Client.Tests.PaymentWalletClientTests.PaymentWallet_WithdrawAmount_IntegrationTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::ADF0413D-AF35-4ADD-832E-4C0B34287D1B::net8.0::Payment.Wallet.Client.Tests.PaymentWalletClientTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -15,7 +15,8 @@ public interface IPaymentWalletClient
 public class PaymentWalletClient : IPaymentWalletClient
 {
     private readonly HttpClient _httpClient;
-    protected string BaseUrl { get; set; } = "http://localhost:52463/onlinewallet/";
+    private string BaseUrl { get; set; } = "http://localhost:52463/onlinewallet/";
+    private MediaTypeWithQualityHeaderValue MediaType { get; set; } = new("application/json");
 
     public PaymentWalletClient()
     {
@@ -23,41 +24,27 @@ public class PaymentWalletClient : IPaymentWalletClient
         _httpClient.BaseAddress = new Uri(BaseUrl);
         _httpClient.DefaultRequestHeaders
             .Accept
-            .Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            .Add(MediaType);
     }
 
     public async Task<HttpResponseMessage> Get()
-    {
-        var response = await _httpClient.GetAsync("balance");
-        // var responseContent = await response.Content.ReadAsStringAsync();
-        // var paymentWalletResponse = JsonConvert.DeserializeObject<PaymentWalletResponse>(responseContent);
-        // return paymentWalletResponse;
-        return response;
-    }
+        => await _httpClient.GetAsync("balance");
 
     public async Task<HttpResponseMessage> Deposit(PaymentWalletRequest paymentWalletRequest)
     {
         var content = new StringContent(JsonConvert.SerializeObject(paymentWalletRequest),
             Encoding.UTF8,
-            "application/json");
+            MediaType);
 
-        var response = await _httpClient.PostAsync("deposit", content);
-        // var responseContent = await response.Content.ReadAsStringAsync();
-        // var paymentWalletResponse = JsonConvert.DeserializeObject<PaymentWalletResponse>(responseContent);
-        // return paymentWalletResponse;
-        return response;
+        return await _httpClient.PostAsync("deposit", content);
     }
 
     public async Task<HttpResponseMessage> Withdraw(PaymentWalletRequest paymentWalletRequest)
     {
         var content = new StringContent(JsonConvert.SerializeObject(paymentWalletRequest),
             Encoding.UTF8,
-            "application/json");
+            MediaType);
 
-        var response = await _httpClient.PostAsync("withdraw", content);
-        // var responseContent = await response.Content.ReadAsStringAsync();
-        // var paymentWalletResponse = JsonConvert.DeserializeObject<PaymentWalletResponse>(responseContent);
-        // return paymentWalletResponse;
-        return response;
+        return await _httpClient.PostAsync("withdraw", content);
     }
 }

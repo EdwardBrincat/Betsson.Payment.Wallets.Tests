@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Payment.Wallet.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcf5414f07b781c9b7bc9c999220604a59cb7bc7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Payment.Wallet.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Payment.Wallet.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

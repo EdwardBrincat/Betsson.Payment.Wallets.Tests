@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Wallet.Client", "Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Wallet.Client.Tests", "Payment.Wallet.Client.Tests\Payment.Wallet.Client.Tests.csproj", "{ADF0413D-AF35-4ADD-832E-4C0B34287D1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Wallet.Services", "Payment.Wallet.Services\Payment.Wallet.Services.csproj", "{220CE493-435E-49D3-9959-5737736404F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{ADF0413D-AF35-4ADD-832E-4C0B34287D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADF0413D-AF35-4ADD-832E-4C0B34287D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADF0413D-AF35-4ADD-832E-4C0B34287D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220CE493-435E-49D3-9959-5737736404F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220CE493-435E-49D3-9959-5737736404F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220CE493-435E-49D3-9959-5737736404F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220CE493-435E-49D3-9959-5737736404F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

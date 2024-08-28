@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2FJ0Tr5rNeUxR3HNUZv6Tf0CB8p4zP2JLzgBLlLZ6ccmtGJciex7HQ1BvMJwVucA+9fEJwi60dZ1WjNd5VqBSg==",
+  "dgSpecHash": "e1BGccdeKwCWEVIkmXl2bvJPZyZzyqA8pP5nMtCarLc+DnFxyln53flsK+rsIYAthj87FYzUWij0yldVeDWKWQ==",
   "success": true,
-  "projectFilePath": "C:\\repos\\Payment.Wallet.Tests\\Payment.Wallet.Client.Tests\\Payment.Wallet.Client.Tests.csproj",
+  "projectFilePath": "C:\\repos\\Betsson.Payment.Wallets.Tests\\Payment.Wallet.Client.Tests\\Payment.Wallet.Client.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

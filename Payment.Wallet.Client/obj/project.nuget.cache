@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6phISqI1w7mMweo64GTpYCmFtCuTPGmSo6dXrV5B2iaYqfBlZbLyAbUin3gd9pLMvixRdcLuDD5g2i7Eo0QnIQ==",
+  "dgSpecHash": "/R74xWtGu2laaN+tuUXeaAN2wLadejN37G9llN5nP/OgbkmhPAKt6k9bEbGhWnyHq22OiqFMAto3iARcMdSUsg==",
   "success": true,
-  "projectFilePath": "C:\\repos\\Payment.Wallet.Tests\\Payment.Wallet.Client\\Payment.Wallet.Client.csproj",
+  "projectFilePath": "C:\\repos\\Betsson.Payment.Wallets.Tests\\Payment.Wallet.Client\\Payment.Wallet.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
