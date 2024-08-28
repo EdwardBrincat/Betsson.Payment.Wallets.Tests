@@ -8,6 +8,11 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Payment.Wallet.Client\Payment.Wallet.Client.csproj" />
+      <ProjectReference Include="..\Payment.Wallet.Contracts\Payment.Wallet.Contracts.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
     </ItemGroup>
 
 </Project>

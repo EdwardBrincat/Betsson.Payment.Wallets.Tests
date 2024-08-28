@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Wallet.Api.Fixtures
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Wallets.Core", "Payment.Wallets.Core\Payment.Wallets.Core.csproj", "{F20EED95-0C36-4D29-975E-370FE14CD9AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Wallet.Contracts", "Payment.Wallet.Contracts\Payment.Wallet.Contracts.csproj", "{46023F7C-555D-4130-8CEF-44B247F7982C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{F20EED95-0C36-4D29-975E-370FE14CD9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F20EED95-0C36-4D29-975E-370FE14CD9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F20EED95-0C36-4D29-975E-370FE14CD9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46023F7C-555D-4130-8CEF-44B247F7982C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46023F7C-555D-4130-8CEF-44B247F7982C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46023F7C-555D-4130-8CEF-44B247F7982C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46023F7C-555D-4130-8CEF-44B247F7982C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

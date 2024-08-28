@@ -17,3 +17,5 @@ C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\obj\Debug\net8.0\
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\obj\Debug\net8.0\Payment.Wallet.Services.pdb
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\obj\Debug\net8.0\ref\Payment.Wallet.Services.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\config.json
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\Payment.Wallet.Contracts.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\Payment.Wallet.Contracts.pdb

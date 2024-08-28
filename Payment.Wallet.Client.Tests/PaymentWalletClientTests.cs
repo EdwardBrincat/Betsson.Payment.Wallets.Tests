@@ -1,3 +1,4 @@
+using Payment.Wallet.Client.Client;
 using Payment.Wallet.Client.Model;
 
 namespace Payment.Wallet.Client.Tests;
@@ -23,7 +24,7 @@ public class PaymentWalletClientTests
     [Test]
     public async Task PaymentWallet_DepositAmount_IntegrationTest()
     {
-        var request = new PaymentWalletRequest
+        var request = new PaymentDepositRequest
         { Amount = 100 };
 
         var response = await _paymentWalletClient.Deposit(request);
@@ -35,7 +36,7 @@ public class PaymentWalletClientTests
     [Test]
     public async Task PaymentWallet_WithdrawAmount_IntegrationTest()
     {
-        var request = new PaymentWalletRequest
+        var request = new PaymentWithdrawRequest
         { Amount = 10 };
 
         var response = await _paymentWalletClient.Withdraw(request);

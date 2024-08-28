@@ -19,6 +19,29 @@
           "Payment.Wallet.Command.Tests.dll": {}
         }
       },
+      "AutoFixture/5.0.0-preview0011": {
+        "dependencies": {
+          "Fare": "2.2.1",
+          "System.ComponentModel.Annotations": "4.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/AutoFixture.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "AutoMapper/13.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.0"
+          }
+        }
+      },
       "Castle.Core/5.1.1": {
         "dependencies": {
           "System.Diagnostics.EventLog": "6.0.0"
@@ -31,6 +54,14 @@
         }
       },
       "coverlet.collector/6.0.0": {},
+      "Fare/2.2.1": {
+        "runtime": {
+          "lib/netstandard2.0/Fare.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.8.0": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -115,6 +146,25 @@
           }
         }
       },
+      "Microsoft.Extensions.DependencyInjection/9.0.0-preview.7.24405.7": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.7.24405.7"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.40507"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0-preview.7.24405.7": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.40507"
+          }
+        }
+      },
       "Microsoft.Extensions.FileProviders.Abstractions/9.0.0-preview.7.24405.7": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.0-preview.7.24405.7"
@@ -144,6 +194,18 @@
           "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.24.40507"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.7.24405.7",
+          "Microsoft.Extensions.Primitives": "9.0.0-preview.7.24405.7"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       },
@@ -454,6 +516,7 @@
       },
       "NUnit.Analyzers/3.9.0": {},
       "NUnit3TestAdapter/4.5.0": {},
+      "System.ComponentModel.Annotations/4.4.0": {},
       "System.Diagnostics.EventLog/6.0.0": {
         "runtime": {
           "lib/net6.0/System.Diagnostics.EventLog.dll": {
@@ -540,10 +603,12 @@
       },
       "Payment.Wallet.Config/1.0.0": {
         "dependencies": {
+          "AutoFixture": "5.0.0-preview0011",
           "Microsoft.Extensions.Configuration": "9.0.0-preview.7.24405.7",
           "Microsoft.Extensions.Configuration.Binder": "9.0.0-preview.7.24405.7",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.0-preview.7.24405.7",
           "Microsoft.Extensions.Configuration.Json": "9.0.0-preview.7.24405.7",
+          "Microsoft.Extensions.DependencyInjection": "9.0.0-preview.7.24405.7",
           "Moq": "4.20.70",
           "xunit.assert": "2.9.0"
         },
@@ -551,9 +616,16 @@
           "Payment.Wallet.Config.dll": {}
         }
       },
+      "Payment.Wallet.Contracts/1.0.0": {
+        "runtime": {
+          "Payment.Wallet.Contracts.dll": {}
+        }
+      },
       "Payment.Wallet.Services/1.0.0": {
         "dependencies": {
-          "Payment.Wallet.Client": "1.0.0"
+          "AutoMapper": "13.0.1",
+          "Payment.Wallet.Client": "1.0.0",
+          "Payment.Wallet.Contracts": "1.0.0"
         },
         "runtime": {
           "Payment.Wallet.Services.dll": {}
@@ -566,6 +638,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoFixture/5.0.0-preview0011": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J/H33qvQKLYtnmgJUZ/WUORkz/UKYDgMXPrzyjo5arppWtBjDDgAVnuFfGv+LAgOIgGqPqCgRFKsFuq6pOJ1mg==",
+      "path": "autofixture/5.0.0-preview0011",
+      "hashPath": "autofixture.5.0.0-preview0011.nupkg.sha512"
+    },
+    "AutoMapper/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "path": "automapper/13.0.1",
+      "hashPath": "automapper.13.0.1.nupkg.sha512"
     },
     "Castle.Core/5.1.1": {
       "type": "package",
@@ -580,6 +666,13 @@
       "sha512": "sha512-tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
       "path": "coverlet.collector/6.0.0",
       "hashPath": "coverlet.collector.6.0.0.nupkg.sha512"
+    },
+    "Fare/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-21XZo/yuXK1k0EUhdLnjgRD4n0HQYmPFchV6uaORcRc65rasZ1vdm2dmJXPBKZiIBztRRYRmmg/B76W721VWkA==",
+      "path": "fare/2.2.1",
+      "hashPath": "fare.2.2.1.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.8.0": {
       "type": "package",
@@ -630,6 +723,20 @@
       "path": "microsoft.extensions.configuration.json/9.0.0-preview.7.24405.7",
       "hashPath": "microsoft.extensions.configuration.json.9.0.0-preview.7.24405.7.nupkg.sha512"
     },
+    "Microsoft.Extensions.DependencyInjection/9.0.0-preview.7.24405.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nTJRKADZrhKrSq/tzJSDr8Vidm6qe4XyACvneTJ+4W3Jq1U+Tlf5RMlqhalvfikLz+q6s+nF+ipPjRxxkY4VCQ==",
+      "path": "microsoft.extensions.dependencyinjection/9.0.0-preview.7.24405.7",
+      "hashPath": "microsoft.extensions.dependencyinjection.9.0.0-preview.7.24405.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0-preview.7.24405.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZuoB/44UTW4IbYfHk0yHtZH9LdHkfEeclxvniWs90T+f9x/NQtN4556iNIKar3MASCcrD0n2AE5y/Kv6buuNIA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0-preview.7.24405.7",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.7.24405.7.nupkg.sha512"
+    },
     "Microsoft.Extensions.FileProviders.Abstractions/9.0.0-preview.7.24405.7": {
       "type": "package",
       "serviceable": true,
@@ -650,6 +757,13 @@
       "sha512": "sha512-BEHNc85v3Rdux4HzkAzhfaBilMY+N5mZlvTsT08Ie+bTILRroeOip0QtiVLTVVmFjKtDu5LfQoJkFmPvjdD1HQ==",
       "path": "microsoft.extensions.filesystemglobbing/9.0.0-preview.7.24405.7",
       "hashPath": "microsoft.extensions.filesystemglobbing.9.0.0-preview.7.24405.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "path": "microsoft.extensions.options/6.0.0",
+      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/9.0.0-preview.7.24405.7": {
       "type": "package",
@@ -735,6 +849,13 @@
       "path": "nunit3testadapter/4.5.0",
       "hashPath": "nunit3testadapter.4.5.0.nupkg.sha512"
     },
+    "System.ComponentModel.Annotations/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-29K3DQ+IGU7LBaMjTo7SI7T7X/tsMtLvz1p56LJ556Iu0Dw3pKZw5g8yCYCWMRxrOF0Hr0FU0FwW0o42y2sb3A==",
+      "path": "system.componentmodel.annotations/4.4.0",
+      "hashPath": "system.componentmodel.annotations.4.4.0.nupkg.sha512"
+    },
     "System.Diagnostics.EventLog/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -788,6 +909,11 @@
       "sha512": ""
     },
     "Payment.Wallet.Config/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Payment.Wallet.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

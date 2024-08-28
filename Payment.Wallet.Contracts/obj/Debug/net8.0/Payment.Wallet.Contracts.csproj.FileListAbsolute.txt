@@ -1,0 +1,12 @@
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Contracts\bin\Debug\net8.0\Payment.Wallet.Contracts.deps.json
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Contracts\bin\Debug\net8.0\Payment.Wallet.Contracts.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Contracts\bin\Debug\net8.0\Payment.Wallet.Contracts.pdb
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Contracts\obj\Debug\net8.0\Payment.Wallet.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Contracts\obj\Debug\net8.0\Payment.Wallet.Contracts.AssemblyInfoInputs.cache
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Contracts\obj\Debug\net8.0\Payment.Wallet.Contracts.AssemblyInfo.cs
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Contracts\obj\Debug\net8.0\Payment.Wallet.Contracts.csproj.CoreCompileInputs.cache
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Contracts\obj\Debug\net8.0\Payment.Wallet.Contracts.sourcelink.json
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Contracts\obj\Debug\net8.0\Payment.Wallet.Contracts.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Contracts\obj\Debug\net8.0\refint\Payment.Wallet.Contracts.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Contracts\obj\Debug\net8.0\Payment.Wallet.Contracts.pdb
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Contracts\obj\Debug\net8.0\ref\Payment.Wallet.Contracts.dll

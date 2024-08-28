@@ -180,6 +180,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[5.0.0-preview0011, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[9.0.0-preview.7.24405.7, )"
@@ -193,6 +197,10 @@
               "version": "[9.0.0-preview.7.24405.7, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.0-preview.7.24405.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0-preview.7.24405.7, )"
             },

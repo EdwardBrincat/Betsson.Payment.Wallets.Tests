@@ -225,3 +225,8 @@ C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client.Tests\bin\Debug\net
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client.Tests\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client.Tests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client.Tests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client.Tests\bin\Debug\net8.0\AutoFixture.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client.Tests\bin\Debug\net8.0\Fare.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client.Tests\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client.Tests\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client.Tests\bin\Debug\net8.0\xunit.assert.dll

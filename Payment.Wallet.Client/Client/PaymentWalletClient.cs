@@ -4,13 +4,13 @@ using Newtonsoft.Json;
 using Payment.Wallet.Client.Model;
 using Payment.Wallet.Config;
 
-namespace Payment.Wallet.Client;
+namespace Payment.Wallet.Client.Client;
 
 public interface IPaymentWalletClient
 {
     Task<HttpResponseMessage> Get();
-    Task<HttpResponseMessage> Deposit(PaymentWalletRequest paymentWalletRequest);
-    Task<HttpResponseMessage> Withdraw(PaymentWalletRequest paymentWalletRequest);
+    Task<HttpResponseMessage> Deposit(PaymentDepositRequest paymentDepositRequest);
+    Task<HttpResponseMessage> Withdraw(PaymentWithdrawRequest paymentWithdrawRequest);
 }
 
 public class PaymentWalletClient : IPaymentWalletClient
@@ -31,18 +31,18 @@ public class PaymentWalletClient : IPaymentWalletClient
     public async Task<HttpResponseMessage> Get()
         => await _httpClient.GetAsync("balance");
 
-    public async Task<HttpResponseMessage> Deposit(PaymentWalletRequest paymentWalletRequest)
+    public async Task<HttpResponseMessage> Deposit(PaymentDepositRequest paymentDepositRequest)
     {
-        var content = new StringContent(JsonConvert.SerializeObject(paymentWalletRequest),
+        var content = new StringContent(JsonConvert.SerializeObject(paymentDepositRequest),
             Encoding.UTF8,
             MediaType);
 
         return await _httpClient.PostAsync("deposit", content);
     }
 
-    public async Task<HttpResponseMessage> Withdraw(PaymentWalletRequest paymentWalletRequest)
+    public async Task<HttpResponseMessage> Withdraw(PaymentWithdrawRequest paymentWithdrawRequest)
     {
-        var content = new StringContent(JsonConvert.SerializeObject(paymentWalletRequest),
+        var content = new StringContent(JsonConvert.SerializeObject(paymentWithdrawRequest),
             Encoding.UTF8,
             MediaType);
 

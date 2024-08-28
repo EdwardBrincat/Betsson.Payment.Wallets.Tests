@@ -128,3 +128,11 @@ C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Command.Tests\obj\Debug\ne
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Command.Tests\obj\Debug\net8.0\Payment.Wallet.Command.Tests.genruntimeconfig.cache
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Command.Tests\obj\Debug\net8.0\ref\Payment.Wallet.Command.Tests.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Command.Tests\bin\Debug\net8.0\xunit.assert.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Command.Tests\bin\Debug\net8.0\AutoFixture.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Command.Tests\bin\Debug\net8.0\AutoMapper.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Command.Tests\bin\Debug\net8.0\Fare.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Command.Tests\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Command.Tests\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Command.Tests\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Command.Tests\bin\Debug\net8.0\Payment.Wallet.Contracts.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Command.Tests\bin\Debug\net8.0\Payment.Wallet.Contracts.pdb
