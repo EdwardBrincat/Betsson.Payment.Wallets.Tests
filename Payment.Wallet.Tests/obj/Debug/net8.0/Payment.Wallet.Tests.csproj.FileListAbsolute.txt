@@ -9,3 +9,15 @@ C:\repos\Payment.Wallet.Tests\Payment.Wallet.Tests\obj\Debug\net8.0\Payment.Wall
 C:\repos\Payment.Wallet.Tests\Payment.Wallet.Tests\obj\Debug\net8.0\refint\Payment.Wallet.Tests.dll
 C:\repos\Payment.Wallet.Tests\Payment.Wallet.Tests\obj\Debug\net8.0\Payment.Wallet.Tests.pdb
 C:\repos\Payment.Wallet.Tests\Payment.Wallet.Tests\obj\Debug\net8.0\ref\Payment.Wallet.Tests.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Tests\bin\Debug\net8.0\Payment.Wallet.Tests.deps.json
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Tests\bin\Debug\net8.0\Payment.Wallet.Tests.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Tests\bin\Debug\net8.0\Payment.Wallet.Tests.pdb
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Tests\obj\Debug\net8.0\Payment.Wallet.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Tests\obj\Debug\net8.0\Payment.Wallet.Tests.AssemblyInfoInputs.cache
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Tests\obj\Debug\net8.0\Payment.Wallet.Tests.AssemblyInfo.cs
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Tests\obj\Debug\net8.0\Payment.Wallet.Tests.csproj.CoreCompileInputs.cache
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Tests\obj\Debug\net8.0\Payment.Wallet.Tests.sourcelink.json
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Tests\obj\Debug\net8.0\Payment.Wallet.Tests.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Tests\obj\Debug\net8.0\refint\Payment.Wallet.Tests.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Tests\obj\Debug\net8.0\Payment.Wallet.Tests.pdb
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Tests\obj\Debug\net8.0\ref\Payment.Wallet.Tests.dll

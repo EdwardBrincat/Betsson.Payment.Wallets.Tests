@@ -23,3 +23,7 @@ C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client\obj\Debug\net8.0\Pa
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client\obj\Debug\net8.0\refint\Payment.Wallet.Client.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client\obj\Debug\net8.0\Payment.Wallet.Client.pdb
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client\obj\Debug\net8.0\ref\Payment.Wallet.Client.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client\bin\Debug\net8.0\Payment.Wallet.Config.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client\bin\Debug\net8.0\Payment.Wallet.Config.pdb
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client\obj\Debug\net8.0\Payment..36637D95.Up2Date
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Client\bin\Debug\net8.0\config.json

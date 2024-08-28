@@ -1,0 +1,5 @@
+{
+  "ServiceSettings": {
+    "baseUrl": "http://localhost:5376/onlinewallet/"
+  }
+}

@@ -2,6 +2,7 @@
 using System.Text;
 using Newtonsoft.Json;
 using Payment.Wallet.Client.Model;
+using Payment.Wallet.Config;
 
 namespace Payment.Wallet.Client;
 
@@ -15,13 +16,13 @@ public interface IPaymentWalletClient
 public class PaymentWalletClient : IPaymentWalletClient
 {
     private readonly HttpClient _httpClient;
-    private string BaseUrl { get; set; } = "http://localhost:52463/onlinewallet/";
     private MediaTypeWithQualityHeaderValue MediaType { get; set; } = new("application/json");
 
     public PaymentWalletClient()
     {
+        var serviceSettings = ConfigFetcher.GetSettingsConfiguration();
         _httpClient = new HttpClient();
-        _httpClient.BaseAddress = new Uri(BaseUrl);
+        _httpClient.BaseAddress = new Uri(serviceSettings.BaseUrl);
         _httpClient.DefaultRequestHeaders
             .Accept
             .Add(MediaType);
