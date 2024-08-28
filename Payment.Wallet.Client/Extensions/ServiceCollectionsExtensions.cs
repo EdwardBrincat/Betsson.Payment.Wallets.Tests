@@ -7,6 +7,7 @@ public static class ServiceCollectionExtensions
 {
     public static IServiceCollection RegisterPaymentWalletClients(this IServiceCollection services)
     {
-        return services.AddTransient<IPaymentWalletClient, PaymentWalletClient>();
+        services.AddScoped<IPaymentWalletClient, PaymentWalletClient>();
+        return services;
     }
 }

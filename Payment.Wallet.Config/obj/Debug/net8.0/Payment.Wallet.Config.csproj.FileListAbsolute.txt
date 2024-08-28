@@ -1,3 +1,4 @@
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Config\bin\Debug\net8.0\config.json
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Config\bin\Debug\net8.0\Payment.Wallet.Config.deps.json
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Config\bin\Debug\net8.0\Payment.Wallet.Config.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Config\bin\Debug\net8.0\Payment.Wallet.Config.pdb
@@ -11,4 +12,3 @@ C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Config\obj\Debug\net8.0\Pa
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Config\obj\Debug\net8.0\refint\Payment.Wallet.Config.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Config\obj\Debug\net8.0\Payment.Wallet.Config.pdb
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Config\obj\Debug\net8.0\ref\Payment.Wallet.Config.dll
-C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Config\bin\Debug\net8.0\config.json

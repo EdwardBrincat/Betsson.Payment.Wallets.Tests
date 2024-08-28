@@ -1,0 +1,26 @@
+Summary:
+	Test execution start time       : 2024-08-28 13:39:24 UTC
+	Test execution end time         : 2024-08-28 13:39:33 UTC
+	Test execution time             : 8s 860ms
+	Test execution time (aggregated): 8s 860ms
+	Number of features              : 1
+	Number of scenarios             : 1
+	Passed scenarios                : 1
+	Bypassed scenarios              : 0
+	Failed scenarios                : 0
+	Ignored scenarios               : 0
+	Number of steps                 : 2
+	Passed steps                    : 2
+	Bypassed steps                  : 0
+	Failed steps                    : 0
+	Ignored steps                   : 0
+	Not Run steps                   : 0
+
+Feature: PaymentWalletsFeature [FEAT 1 - Payment Wallet]
+	In order to manage the Payment Wallet
+	    As an api service
+	    I want to be able to deposit, withdraw and get current balance
+
+	Scenario: Scenario 1 Perform payment wallet actions happy path [SCENARIO 1 - Perform Payment Wallet Actions Happy Path] - Passed (8s 860ms)
+		Step 1: GIVEN A get wallet balance action is requested - Passed (211ms)
+		Step 2: THEN The wallet balance should be set to zero - Passed (8s 450ms)

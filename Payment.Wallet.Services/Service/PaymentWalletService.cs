@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using Payment.Wallet.Client;
 using Payment.Wallet.Client.Client;
 using Payment.Wallet.Client.Model;
 

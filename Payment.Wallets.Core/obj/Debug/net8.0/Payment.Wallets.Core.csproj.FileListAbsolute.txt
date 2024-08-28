@@ -10,3 +10,4 @@ C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallets.Core\obj\Debug\net8.0\Pay
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallets.Core\obj\Debug\net8.0\refint\Payment.Wallets.Core.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallets.Core\obj\Debug\net8.0\Payment.Wallets.Core.pdb
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallets.Core\obj\Debug\net8.0\ref\Payment.Wallets.Core.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallets.Core\obj\Debug\net8.0\Payment.Wallets.Core.csproj.AssemblyReference.cache

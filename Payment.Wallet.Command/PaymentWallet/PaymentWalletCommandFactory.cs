@@ -7,37 +7,37 @@ namespace Payment.Wallet.Command.PaymentWallet;
 
 public class PaymentWalletCommandFactory
 {
-    private readonly PaymentWalletService _service;
+    private readonly IPaymentWalletService _service;
     private readonly IMapper _mapper;
 
     public PaymentWalletCommandFactory(
         IMapper mapper,
-        PaymentWalletService service
+        IPaymentWalletService service
     )
     {
         _mapper = mapper;
         _service = service;
     }
 
-    public Task<PaymentBalanceResult> ExecuteGetWalletBalanceCommand()
+    public async Task<PaymentBalanceResult> ExecuteGetWalletBalanceCommand()
     {
         var response = _service.GetWalletBalance();
-        return Task.FromResult(_mapper.Map<PaymentBalanceResult>(response));
+        return _mapper.Map<PaymentBalanceResult>(response.Result);
     }
 
 
-    public Task<PaymentBalanceResult> ExecuteDepositCommand(PaymentDepositInput paymentDepositInput)
+    public async Task<PaymentBalanceResult> ExecuteDepositCommand(PaymentDepositInput paymentDepositInput)
     {
         var request = _mapper.Map<PaymentDepositRequest>(paymentDepositInput);
         var response = _service.Deposit(request);
-        return Task.FromResult(_mapper.Map<PaymentBalanceResult>(response));
+        return _mapper.Map<PaymentBalanceResult>(response.Result);
     }
 
 
-    public Task<PaymentBalanceResult> ExecuteWithdrawCommand(PaymentWithdrawInput paymentWithdrawInput)
+    public async Task<PaymentBalanceResult> ExecuteWithdrawCommand(PaymentWithdrawInput paymentWithdrawInput)
     {
         var request = _mapper.Map<PaymentWithdrawRequest>(paymentWithdrawInput);
         var response = _service.Withdraw(request);
-        return Task.FromResult(_mapper.Map<PaymentBalanceResult>(response));
+        return _mapper.Map<PaymentBalanceResult>(response.Result);
     }
 }

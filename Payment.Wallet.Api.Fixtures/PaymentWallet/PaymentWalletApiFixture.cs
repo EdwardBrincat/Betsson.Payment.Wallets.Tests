@@ -8,11 +8,14 @@ namespace Payment.Wallet.Api.Fixtures.PaymentWallet;
 
 public class PaymentWalletApiFixture
 {
-    private readonly PaymentWalletCommandFactory _paymentWalletCommandFactory;
     public ScenarioContext ScenarioContext { get; set; }
+    private readonly PaymentWalletCommandFactory _paymentWalletCommandFactory;
 
-    public PaymentWalletApiFixture(PaymentWalletCommandFactory paymentWalletCommandFactory)
+    public PaymentWalletApiFixture(
+        ScenarioContext scenarioContext,
+        PaymentWalletCommandFactory paymentWalletCommandFactory)
     {
+        ScenarioContext = scenarioContext;
         _paymentWalletCommandFactory = paymentWalletCommandFactory;
     }
 
@@ -33,11 +36,10 @@ public class PaymentWalletApiFixture
         var result = await _paymentWalletCommandFactory.ExecuteWithdrawCommand(paymentWithdrawInput);
         ScenarioContext.AddOrUpdateValue($"{PaymentKeys.Withdrawal}", result);
     }
-    
-    public void The_wallet_balance_should_be_set_to_zero()
+
+    public void The_wallet_balance_should_be_set_to_amount_AMOUNT(int amount)
     {
-        var balance = ScenarioContext.GetValue<int>($"{PaymentKeys.Balance}");
-        
-        balance.Should().Be(0);
+        var balance = ScenarioContext.GetValue<PaymentBalanceResult>($"{PaymentKeys.Balance}");
+        balance.Amount.Should().Be(amount);
     }
 }

@@ -1,0 +1,29 @@
+Summary:
+	Test execution start time       : 2024-08-28 13:32:53 UTC
+	Test execution end time         : 2024-08-28 13:33:36 UTC
+	Test execution time             : 43s 172ms
+	Test execution time (aggregated): 43s 172ms
+	Number of features              : 1
+	Number of scenarios             : 1
+	Passed scenarios                : 0
+	Bypassed scenarios              : 0
+	Failed scenarios                : 1
+	Ignored scenarios               : 0
+	Number of steps                 : 2
+	Passed steps                    : 0
+	Bypassed steps                  : 0
+	Failed steps                    : 1
+	Ignored steps                   : 0
+	Not Run steps                   : 1
+
+Feature: PaymentWalletsFeature [FEAT 1 - Payment Wallet]
+	In order to manage the Payment Wallet
+	    As an api service
+	    I want to be able to deposit, withdraw and get current balance
+
+	Scenario: Scenario 1 Perform payment wallet actions happy path [SCENARIO 1 - Perform Payment Wallet Actions Happy Path] - Failed (43s 172ms)
+		Step 1: GIVEN A get wallet balance action is requested - Failed (42s 455ms)
+		Step 2: THEN The wallet balance should be set to zero - NotRun
+		Details:
+			Step 1: System.NullReferenceException : Object reference not set to an instance of an object.
+				at Payment.Wallet.Api.Fixtures.PaymentWallet.PaymentWalletApiFixture.A_get_wallet_balance_action_is_requested() in C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\PaymentWallet\PaymentWalletApiFixture.cs:line 22

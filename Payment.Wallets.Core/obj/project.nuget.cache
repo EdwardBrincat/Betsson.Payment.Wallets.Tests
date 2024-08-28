@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "eiEhRh1i3GZvpg8FWme6Ml4/T05avF5hBVNDcoGAOzXTdwkGoT/XO3iphZBnxr+XTkG1TTuwBH0pBEpYU8Vn1A==",
+  "dgSpecHash": "Dp7vfxYPiIOD8rbpgKpi/36y75agg3j6+WXFf+ZGSiUIy4i5hvNUfKiVPdfa+ambLAyUiWwkveBj4l8GWcbVhg==",
   "success": true,
   "projectFilePath": "C:\\repos\\Betsson.Payment.Wallets.Tests\\Payment.Wallets.Core\\Payment.Wallets.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\autofixture\\5.0.0-preview0011\\autofixture.5.0.0-preview0011.nupkg.sha512",
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\fare\\2.2.1\\fare.2.2.1.nupkg.sha512",
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-preview.7.24405.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.7.24405.7.nupkg.sha512",
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\system.componentmodel.annotations\\4.4.0\\system.componentmodel.annotations.4.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

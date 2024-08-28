@@ -1,0 +1,48 @@
+Summary:
+	Test execution start time       : 2024-08-28 12:17:44 UTC
+	Test execution end time         : 2024-08-28 12:17:44 UTC
+	Test execution time             : 121ms
+	Test execution time (aggregated): 121ms
+	Number of features              : 1
+	Number of scenarios             : 1
+	Passed scenarios                : 0
+	Bypassed scenarios              : 0
+	Failed scenarios                : 1
+	Ignored scenarios               : 0
+	Number of steps                 : 0
+	Passed steps                    : 0
+	Bypassed steps                  : 0
+	Failed steps                    : 0
+	Ignored steps                   : 0
+	Not Run steps                   : 0
+
+Feature: PaymentWalletsFeature [FEAT 1 - Payment Wallet]
+	In order to manage the Payment Wallet
+	    As an api service
+	    I want to be able to deposit, withdraw and get current balance
+
+	Scenario: Scenario 1 Perform payment wallet actions happy path [SCENARIO 1 - Perform Payment Wallet Actions Happy Path] - Failed (121ms)
+		Details:
+			Scenario: System.InvalidOperationException : Scenario context initialization failed: Unable to resolve type Payment.Wallet.Context.PaymentWalletContext from scope #scenario:
+				Unable to resolve type Payment.Wallet.Api.Fixtures.PaymentWallet.PaymentWalletApiFixture from scope #scenario:
+				Unable to resolve type Payment.Wallet.Command.PaymentWallet.PaymentWalletCommandFactory from scope #scenario:
+				Unable to resolve type AutoMapper.IMapper from scope #scenario:
+				Type 'AutoMapper.IMapper' has to be non-abstract class or value type.
+					---> System.InvalidOperationException : Unable to resolve type Payment.Wallet.Context.PaymentWalletContext from scope #scenario:
+					Unable to resolve type Payment.Wallet.Api.Fixtures.PaymentWallet.PaymentWalletApiFixture from scope #scenario:
+					Unable to resolve type Payment.Wallet.Command.PaymentWallet.PaymentWalletCommandFactory from scope #scenario:
+					Unable to resolve type AutoMapper.IMapper from scope #scenario:
+					Type 'AutoMapper.IMapper' has to be non-abstract class or value type.
+						---> System.InvalidOperationException : Unable to resolve type Payment.Wallet.Api.Fixtures.PaymentWallet.PaymentWalletApiFixture from scope #scenario:
+						Unable to resolve type Payment.Wallet.Command.PaymentWallet.PaymentWalletCommandFactory from scope #scenario:
+						Unable to resolve type AutoMapper.IMapper from scope #scenario:
+						Type 'AutoMapper.IMapper' has to be non-abstract class or value type.
+							---> System.InvalidOperationException : Unable to resolve type Payment.Wallet.Command.PaymentWallet.PaymentWalletCommandFactory from scope #scenario:
+							Unable to resolve type AutoMapper.IMapper from scope #scenario:
+							Type 'AutoMapper.IMapper' has to be non-abstract class or value type.
+								---> System.InvalidOperationException : Unable to resolve type AutoMapper.IMapper from scope #scenario:
+								Type 'AutoMapper.IMapper' has to be non-abstract class or value type.
+									---> System.InvalidOperationException : Type 'AutoMapper.IMapper' has to be non-abstract class or value type.
+				at LightBDD.Core.Execution.Implementation.RunnableScenario.CreateExecutionContext()
+				at LightBDD.Core.Execution.Implementation.RunnableScenario.StartScenario(EventTime executionStartTime)
+				at LightBDD.Core.Execution.Implementation.RunnableScenario.ExecuteAsync()

@@ -2,6 +2,7 @@ C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\Payment.Wallet.Api.Fixtures.deps.json
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\Payment.Wallet.Api.Fixtures.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\Payment.Wallet.Api.Fixtures.pdb
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\FluentAssertions.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\Payment.Wallet.Client.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\Payment.Wallet.Command.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\Payment.Wallet.Config.dll
@@ -14,6 +15,8 @@ C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\Payment.Wallet.Config.pdb
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\Payment.Wallet.Contracts.pdb
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\Payment.Wallet.Services.pdb
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\FluentAssertions.pdb
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\FluentAssertions.xml
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\obj\Debug\net8.0\Payment.Wallet.Api.Fixtures.csproj.AssemblyReference.cache
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\obj\Debug\net8.0\Payment.Wallet.Api.Fixtures.GeneratedMSBuildEditorConfig.editorconfig
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\obj\Debug\net8.0\Payment.Wallet.Api.Fixtures.AssemblyInfoInputs.cache
@@ -25,6 +28,3 @@ C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\obj\Debug\net
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\obj\Debug\net8.0\refint\Payment.Wallet.Api.Fixtures.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\obj\Debug\net8.0\Payment.Wallet.Api.Fixtures.pdb
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\obj\Debug\net8.0\ref\Payment.Wallet.Api.Fixtures.dll
-C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\FluentAssertions.dll
-C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\FluentAssertions.pdb
-C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Api.Fixtures\bin\Debug\net8.0\FluentAssertions.xml

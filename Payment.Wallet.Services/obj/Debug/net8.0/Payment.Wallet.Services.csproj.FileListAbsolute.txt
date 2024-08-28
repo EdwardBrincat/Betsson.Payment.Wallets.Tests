@@ -1,9 +1,12 @@
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\config.json
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\Payment.Wallet.Services.deps.json
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\Payment.Wallet.Services.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\Payment.Wallet.Services.pdb
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\Payment.Wallet.Client.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\Payment.Wallet.Config.dll
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\Payment.Wallet.Contracts.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\Payment.Wallet.Client.pdb
+C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\Payment.Wallet.Contracts.pdb
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\Payment.Wallet.Config.pdb
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\obj\Debug\net8.0\Payment.Wallet.Services.csproj.AssemblyReference.cache
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\obj\Debug\net8.0\Payment.Wallet.Services.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,6 +19,3 @@ C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\obj\Debug\net8.0\
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\obj\Debug\net8.0\refint\Payment.Wallet.Services.dll
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\obj\Debug\net8.0\Payment.Wallet.Services.pdb
 C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\obj\Debug\net8.0\ref\Payment.Wallet.Services.dll
-C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\config.json
-C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\Payment.Wallet.Contracts.dll
-C:\repos\Betsson.Payment.Wallets.Tests\Payment.Wallet.Services\bin\Debug\net8.0\Payment.Wallet.Contracts.pdb
