@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Wallet.Config", "Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Wallet.Command", "Payment.Wallet.Command\Payment.Wallet.Command.csproj", "{B6A8DBC2-322F-45D3-AC6C-278163647539}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Wallet.Command.Tests", "Payment.Wallet.Command.Tests\Payment.Wallet.Command.Tests.csproj", "{9147316D-332C-4F9F-94C1-EBC7B27F4B31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{B6A8DBC2-322F-45D3-AC6C-278163647539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6A8DBC2-322F-45D3-AC6C-278163647539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6A8DBC2-322F-45D3-AC6C-278163647539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9147316D-332C-4F9F-94C1-EBC7B27F4B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9147316D-332C-4F9F-94C1-EBC7B27F4B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9147316D-332C-4F9F-94C1-EBC7B27F4B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9147316D-332C-4F9F-94C1-EBC7B27F4B31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

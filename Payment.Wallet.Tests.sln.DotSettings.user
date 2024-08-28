@@ -2,5 +2,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=de162e30_002D9071_002D4333_002D90ed_002De7737dc64bc3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PaymentWalletClientTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::ADF0413D-AF35-4ADD-832E-4C0B34287D1B::net8.0::Payment.Wallet.Client.Tests.PaymentWalletClientTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::9147316D-332C-4F9F-94C1-EBC7B27F4B31::net8.0::Payment.Wallet.Command.Tests.PaymentWalletComponentTests.Get_Balances_Are_Correct&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::9147316D-332C-4F9F-94C1-EBC7B27F4B31::net8.0::Payment.Wallet.Command.Tests.PaymentWalletComponentTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

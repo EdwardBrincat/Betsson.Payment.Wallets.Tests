@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "x9N8hHG9/KW0GeVbM53YEDCq2H37t9cSYGrF8wgf8RtXgwlEN+07zDTqCVzKvRgmznpwuCSDsZcS4L6m42PPpA==",
+  "dgSpecHash": "qZ9FmYuez3sj1P9v364CLH9/IY51lsjTnqhI9pzriXl2+Ga8cudbSEoYzMWLmx2apymXGh1QA4hEsOCSf35VEg==",
   "success": true,
   "projectFilePath": "C:\\repos\\Betsson.Payment.Wallets.Tests\\Payment.Wallet.Services\\Payment.Wallet.Services.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0-preview.7.24405.7\\microsoft.extensions.configuration.9.0.0-preview.7.24405.7.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0-preview.7.24405.7\\microsoft.extensions.configuration.abstractions.9.0.0-preview.7.24405.7.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.0-preview.7.24405.7\\microsoft.extensions.configuration.binder.9.0.0-preview.7.24405.7.nupkg.sha512",
@@ -14,10 +15,13 @@
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\9.0.0-preview.7.24405.7\\microsoft.extensions.fileproviders.physical.9.0.0-preview.7.24405.7.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\9.0.0-preview.7.24405.7\\microsoft.extensions.filesystemglobbing.9.0.0-preview.7.24405.7.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0-preview.7.24405.7\\microsoft.extensions.primitives.9.0.0-preview.7.24405.7.nupkg.sha512",
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\moq\\4.20.70\\moq.4.20.70.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\system.io.pipelines\\9.0.0-preview.7.24405.7\\system.io.pipelines.9.0.0-preview.7.24405.7.nupkg.sha512",
     "C:\\Users\\EdwardBrincat\\.nuget\\packages\\system.text.encodings.web\\9.0.0-preview.7.24405.7\\system.text.encodings.web.9.0.0-preview.7.24405.7.nupkg.sha512",
-    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\system.text.json\\9.0.0-preview.7.24405.7\\system.text.json.9.0.0-preview.7.24405.7.nupkg.sha512"
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\system.text.json\\9.0.0-preview.7.24405.7\\system.text.json.9.0.0-preview.7.24405.7.nupkg.sha512",
+    "C:\\Users\\EdwardBrincat\\.nuget\\packages\\xunit.assert\\2.9.0\\xunit.assert.2.9.0.nupkg.sha512"
   ],
   "logs": []
 }

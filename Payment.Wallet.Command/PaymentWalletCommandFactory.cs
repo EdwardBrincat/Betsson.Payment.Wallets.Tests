@@ -3,12 +3,19 @@ using Payment.Wallet.Services;
 
 namespace Payment.Wallet.Command;
 
+public interface IPaymentWalletCommandFactory
+{
+    Task<PaymentWalletResponse> ExecuteGetWalletBalanceCommand();
+    Task<PaymentWalletResponse> ExecuteDepositCommand(PaymentWalletRequest paymentWalletRequest);
+    Task<PaymentWalletResponse> ExecuteWithdrawCommand(PaymentWalletRequest paymentWalletRequest);
+}
+
 public class PaymentWalletCommandFactory
 {
-    private readonly IPaymentWalletService _service;
+    private readonly PaymentWalletService _service;
 
     public PaymentWalletCommandFactory(
-        IPaymentWalletService service
+        PaymentWalletService service
     )
     {
         _service = service;
